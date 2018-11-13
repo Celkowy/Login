@@ -2,8 +2,9 @@
 
 Security of mobile systems
 
-v1.0 
+
 ```
+v1.0 
 Login
 Registration
 Logout
