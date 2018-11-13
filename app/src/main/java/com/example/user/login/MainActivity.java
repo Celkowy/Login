@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private int counter = 2;
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
+    private Button Exit;
 
 
 
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         Info = (TextView)findViewById(R.id.tvInfo);
         Login = (Button)findViewById(R.id.btnLogin);
         Register = (Button)findViewById(R.id.btnRegister);
+        Exit = (Button)findViewById(R.id.btn_Exit);
 
 
         Info.setText("No of attempts remaining: 2");
@@ -75,6 +77,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+    public void Exit(View view)
+    {
+        moveTaskToBack(true);
+        android.os.Process.killProcess(android.os.Process.myPid());
+        System.exit(1);
+    }
 
 
 //Shows the number of remaining attempts//
