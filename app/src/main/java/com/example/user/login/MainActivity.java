@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
             progressDialog.show();
 
 
+
         firebaseAuth.signInWithEmailAndPassword(userName, userPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -116,6 +117,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 
 
 }
