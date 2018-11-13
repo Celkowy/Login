@@ -1,4 +1,8 @@
 # Login
 BDSM 
 
-v 1.0 Logowanie + Rejestracja połączenie z bazą danych
+v1.0 
+```Login
+Registration
+Logout
+DataBase (FireBase)``
