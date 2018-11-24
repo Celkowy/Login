@@ -26,5 +26,5 @@ Fingerprint authentication
 
 # I used
 
-- [Java]
-- [Firebase]
+- *Java
+- *Firebase
