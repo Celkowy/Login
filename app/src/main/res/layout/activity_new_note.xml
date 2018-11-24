@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/new_note_toolbar"
+            android:id="@+id/tbToolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
@@ -20,7 +20,7 @@
             android:theme="?attr/actionBarTheme" />
 
         <EditText
-            android:id="@+id/new_bote_title"
+            android:id="@+id/etTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
@@ -33,7 +33,7 @@
             android:background="@android:color/background_dark"></View>
 
         <EditText
-            android:id="@+id/new_note_content"
+            android:id="@+id/etDescription"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -43,16 +43,17 @@
             android:inputType="textMultiLine" />
 
         <Button
-            android:id="@+id/new_logout_button"
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnLogout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="logout" />
 
-        <Button
-            android:id="@+id/new_note_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Save" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

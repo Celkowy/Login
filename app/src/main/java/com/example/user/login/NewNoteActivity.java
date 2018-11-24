@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,11 +16,14 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class NewNoteActivity extends AppCompatActivity {
 
-    private Button btnCreate;
-    private EditText etTitle, etContent;
+
     private Toolbar mToolbar;
-    private Button logoutButton;
+    private Button Logout;
     private FirebaseAuth firebaseAuth;
+    private EditText Title;
+    private EditText Descritpion;
+    private Button Save;
+    private Button LogOut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,9 +32,12 @@ public class NewNoteActivity extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        logoutButton = (Button)findViewById(R.id.new_logout_button);
+        Save = (Button)findViewById(R.id.btnSave);
+        Title = (EditText)findViewById(R.id.etTitle);
+        Descritpion = (EditText)findViewById(R.id.etDescription);
+        LogOut = (Button)findViewById(R.id.btnLogout);
 
-        logoutButton.setOnClickListener(new View.OnClickListener() {
+        LogOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 firebaseAuth.signOut();
