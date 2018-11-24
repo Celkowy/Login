@@ -3,7 +3,6 @@
 Notes creator with registration and login for new and existing users.
 
 ```
-v1.0 
 - Create an account
 - Sign in
 - Create title
@@ -11,14 +10,18 @@ v1.0
 - Save
 - Logout
 ```
+
 ```
-v1.1
-Authentication (FireBase)
-DataBase (FireBase)
+v1.0
+- Registration
+- Login in
+- Note
+- Logout
 ```
+
 ```
 v2.0
-Fingerprint
+Fingerprint authentication
 ```
 
 # I used
