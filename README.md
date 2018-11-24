@@ -1,7 +1,5 @@
 # Login
 
-Security of mobile systems
-
 Notes creator with registration and login for new and existing users.
 
 ```
