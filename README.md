@@ -24,12 +24,12 @@ v1.0
 
 ```
 v1.1
-- Switching beetwen login and register activity
+- Switching between login and register activity
 ```
 
 ```
 v1.2
-- Exit from app added
+- Exit from application
 ```
 
 ```
