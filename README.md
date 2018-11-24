@@ -18,8 +18,18 @@ Notes creator with registration and login for new and existing users.
 v1.0
 - Registration
 - Login in
-- Note
+- Notes without saving
 - Logout
+```
+
+```
+v1.1
+- Switching beetwen login and register activity
+```
+
+```
+v1.2
+- Exit from app added
 ```
 
 ```
