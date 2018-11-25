@@ -16,19 +16,19 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+    setContentView(R.layout.activity_second);
 
-        firebaseAuth = FirebaseAuth.getInstance();
+    firebaseAuth = FirebaseAuth.getInstance();
 
-        logout = (Button)findViewById(R.id.btnLogout);
+    logout = (Button)findViewById(R.id.btnLogout);
 
         logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                firebaseAuth.signOut();
-                finish();
-                startActivity(new Intent(SecondActivity.this, MainActivity.class));
-            }
-        });
-    }
+        @Override
+        public void onClick(View view) {
+            firebaseAuth.signOut();
+            finish();
+            startActivity(new Intent(SecondActivity.this, MainActivity.class));
+        }
+    });
+}
 }

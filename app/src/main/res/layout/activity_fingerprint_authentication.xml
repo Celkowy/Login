@@ -5,15 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/tlo"
-    tools:context=".FingerPrintActivity">
+    tools:context=".FingerprintAuthenticationActivity">
 
-    <TextView
-        android:id="@+id/tvFingerprintScanner"
-        android:layout_width="369dp"
-        android:layout_height="87dp"
-        android:text="Use the fingerprint scanner"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="116dp" />
 </android.support.constraint.ConstraintLayout>

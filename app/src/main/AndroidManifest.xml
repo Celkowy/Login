@@ -21,6 +21,9 @@
         <activity android:name=".SecondActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".NewNoteActivity" />
+        <activity android:name=".FingerprintActivity" />
+        <activity android:name=".FingerprintAuthenticationActivity"/>
+        <activity android:name=".FingerprintAuthenticationActivity"></activity>
     </application>
 
 </manifest>
