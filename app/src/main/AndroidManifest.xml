@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.user.login">
 
-    <uses-permission android:name="android.permission.USE_BIOMETRIC.FINGERPRINT" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC.FINGERPRINT"/>
 
     <application
         android:allowBackup="true"
@@ -13,17 +13,17 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".NewNoteActivity" />
-        <activity android:name=".FingerprintActivity" />
+        <activity android:name=".SecondActivity"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".NewNoteActivity"/>
+        <activity android:name=".FingerprintActivity"/>
         <activity android:name=".FingerprintAuthenticationActivity"/>
-        <activity android:name=".FingerprintAuthenticationActivity"></activity>
+        <activity android:name=".FingerprintAuthenticationActivity"/>
     </application>
 
 </manifest>
