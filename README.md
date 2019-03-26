@@ -1,6 +1,6 @@
 # Login
 
-Notes creator with registration and login for new and existing users.
+Notes creator with registration and login for existing users.
 
 ```
 - Create an account
