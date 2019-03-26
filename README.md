@@ -3,8 +3,9 @@
 Notes creator with registration and login for existing users.
 
 
-Goal is to:
+
 ```
+Goal is to:
 - Create an account
 - Sign in
 - Create title
